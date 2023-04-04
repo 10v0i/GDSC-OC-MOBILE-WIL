@@ -9,8 +9,12 @@
       assets/'이미지의 경로'
  
  - 아이콘 위젯: Icon(Icons.아이콘이름)
-   > 아이콘 이름은 flutter 홈페이지에 있음 \n
+   > 아이콘 이름은 flutter 홈페이지에 있음
   
  - 박스 위젯: Container()/SizedBox()
    > 너비: width, 높이: height, 색상: color
    >> Center(): 위젯의 기준점을 중앙으로 설정
+
+
+# 질문
+- 아이콘 이름은 flutter 홈페이지에서 찾는 방법이 유일한가요?
