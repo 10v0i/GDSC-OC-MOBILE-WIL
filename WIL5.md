@@ -12,7 +12,7 @@ Stateless Widget > build 메소드를 통해 UI 출력
 2. 작성법
 - Stateful Widget 작성: st > Stateful, Stateless에 대한 옵션을 얻을 수 있음
   (Stateless Widget을 Stateful Widget으로 변경) Stateless Widget에 마우스를 올리고 code action을 열면 Convert to Stateful Widget 있음
-*State의 데이터를 바꿀 때 UI가 새로고침되면서 최신 데이터를 보여줌
+  *State의 데이터를 바꿀 때 UI가 새로고침되면서 최신 데이터를 보여줌
 - State에 위젯의 UI 관련 코드 작성
 - 위젯에 데이터 추가
 - 데이터 수정 함수 작성
@@ -32,5 +32,5 @@ Stateless Widget > build 메소드를 통해 UI 출력
 - initState 메소드: 상태를 초기화 하기 위한 메소드
 > 상태변수의 초기화가 가능하기 때문에 대부분의 경우에서 필요없음
 > 부모 요소에 의존하는 데이터를 초기화해야 하는 경우 사용됨
-*initState는 build 메소드보다 먼저 호출되어야 하고 단 한 번만 호출됨
+  *initState는 build 메소드보다 먼저 호출되어야 하고 단 한 번만 호출됨
 - dispose 메소드: 위젯이 스크린에서 제거될 때 호출되는 메소드
